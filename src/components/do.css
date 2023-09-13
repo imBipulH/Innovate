@@ -1,0 +1,105 @@
+/* DO Part Start */
+
+#do{
+    padding: 100px 0;
+    background: #f6f5ff;
+}
+.do-title h3{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.do-title p{
+    color: #6C7D93;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+.do-title button{
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #1BBF00;
+    color: #fff;
+    border: 1px solid #1BBF00;
+
+}
+.do-service{
+    text-align: center;
+    padding: 50px 0;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.do-service:hover{
+    background-color: #6B62C5;
+}
+.do-service:hover h4,
+.do-service:hover p,
+.do-service:hover a{
+    color: #fff;
+}
+.do-service:hover a::before{
+    background-color: rgba(245, 245, 245, 0.7);
+}
+.do-service img{
+    width: 64px;
+    height: 64px;
+}
+.do-service h4{
+    color: #141132;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 32px;
+}
+.do-service p{
+    color: #726e9e;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    line-height: 30px;
+    width: 257px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.do-service a{
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #141132;
+    position: relative;
+    padding: 8px 10px;
+    background-color: transparent;
+    z-index: 1;
+    overflow: hidden; 
+    border-radius: 100px;
+}
+.do-service a::before{
+    content: "";
+    position: absolute;
+    background-color: hsla(120, 66%, 51%, 0.7);
+    border-radius: 0 100px 100px 0;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    z-index: -1;
+    transition: width 0.4s;
+}
+.do-service a:hover::before{
+    width: 100%;
+}
+.r-1{
+    margin-bottom: 300px;
+}
+
+
+/* DO Part End */

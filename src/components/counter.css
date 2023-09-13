@@ -1,0 +1,126 @@
+#counter{
+    padding: 280px 0;
+    position: relative;
+}
+.counter-details {
+    text-align: center;
+    border-right: 2px solid #4F585F;
+}
+.counter-details:last-child {
+    border-right: none;
+}
+.counter-details h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #1bbf00;
+}
+.counter-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #141135;
+    line-height: 40px;
+}
+.counter-shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Choose Part Start */
+
+#choose{
+    padding: 100px 0;
+    background-color: #fdfdfd;
+    position: relative;
+
+}
+.shape-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.cc{
+    position: relative;
+}
+
+.choose-icon{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 10px 146px 10px 20px;
+    transition: all linear 0.4s;
+}
+.choose-icon:hover{
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    padding: 20px 146px 20px 24px;
+
+}
+.choose-icon p{
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    color: #726e9e;
+    margin-left: 37px;
+    width: 366px;
+    line-height: 30px;
+}
+.choose-circle{
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 20px;
+}
+.choose-circle::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 25px;
+    height: 25px;
+    background: #cbc8f0;
+    border-radius: 50px;
+}
+
+/* Choose Right */
+
+.choose-right{
+    margin-left: 185px;
+}
+
+.choose-right h3{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+
+}
+.choose-right p{
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 393px;
+}
+.choose-right button{
+    padding: 20px 40px;
+    background-color: #1BBF00;
+    border-radius: 100px;
+    margin-top: 41px;
+    border: 1px solid #1BBF00;
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
